@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="weather.css" />
+    <script src="weather.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Veckans väder</h1>
+    </header>
+    <h2 id="datum"></h2>
+    <div class="stockholm">
+      <h2 id="name"></h2>
+      <span>Temperatur:</span>
+      <h3 id="temperatur"></h3>
+      <div id="iconContainer"></div>
+    
+    </div>
+    <div class ="button">
+    <button id="showButton" onclick="showForecast()">Visa Väderprognos</button>
+    <button id="hideButton" onclick="hideForecast()">Stäng Väderprognos</button>
+    </div>
+    <div id="forecastWrapper" class="wrapper">
+      <div class="dag1">
+        <h3>min temp:</h3>
+        <h4 id="mintemp"></h4>
+        <h3>max temp:</h3>
+        <h4 id="maxtemp"></h4>
+        <span>datum:</span>
+        <h3 id="datum1"></h3>
+        <div id="iconContainer1"></div>
+      </div>
+
+      <div class = "dag2">
+        <h3>min temp:</h3>
+        <h4 id="mintemp2"></h4>
+        <h3>max temp:</h3>
+        <h4 id="maxtemp2"></h4>
+        <span>datum:</span>
+        <h3 id="datum2"></h3>
+        <div id="iconContainer2"></div>
+      </div>
+
+      <div class="dag3">
+        <h3>min temp:</h3>
+        <h4 id="mintemp3"></h4>
+        <h3>max temp:</h3>
+        <h4 id="maxtemp3"></h4>
+        <span>datum:</span>
+        <h3 id="datum3"></h3>
+        <div id="iconContainer3"></div>
+      </div>
+
+      <div class="dag4">
+        <h3>min temp:</h3>
+        <h4 id="mintemp4"></h4>
+        <h3>max temp:</h3>
+        <h4 id="maxtemp4"></h4>
+        <span>datum:</span>
+        <h3 id="datum4"></h3>
+        <div id="iconContainer4"></div>
+      </div>
+
+      <div class="dag5">
+        <h3>min temp:</h3>
+        <h4 id="mintemp5"></h4>
+        <h3>max temp:</h3>
+        <h4 id="maxtemp5"></h4>
+        <span>datum:</span>
+        <h3 id="datum5"></h3>
+        <div id="iconContainer5"></div>
+      </div>
+    </div>
+  </body>
+</html>
