@@ -1,3 +1,3 @@
 # Weatherapplication with five day prognoses. 
 
-# Fetch live data from Openweathermap API.
+Fetch live data from Openweathermap API.
